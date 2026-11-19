@@ -24,10 +24,15 @@ An end-to-end retail analytics project using Walmart's historical store-sales da
 
 ## View the analysis
 
+- [Download the editable Power BI report (.pbix)](powerbi/Walmart_Retail_Analytics.pbix)
 - [Clean executed notebook](notebooks/walmart_retail_analytics.ipynb)
 - [Standalone HTML report](reports/walmart_retail_analytics.html)
 - [Interview preparation guide](reports/interview_guide.md)
 - [Résumé bullets](reports/resume_bullets.md)
+
+### Open the Power BI dashboard
+
+Download `powerbi/Walmart_Retail_Analytics.pbix` and open it with Power BI Desktop. The repository also includes a dashboard screenshot for quick browser viewing and the dashboard-ready Excel workbook in `outputs/`.
 
 ## Key findings
 
@@ -80,6 +85,8 @@ Retail-Analytics-Project/
 ├── outputs/
 │   ├── charts and summary CSVs
 │   └── walmart_powerbi_dashboard.xlsx
+├── powerbi/
+│   └── Walmart_Retail_Analytics.pbix
 ├── reports/
 │   ├── interview_guide.md
 │   └── resume_bullets.md
