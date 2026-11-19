@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+work/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Raw Kaggle data and duplicate legacy outputs
+data/**/*.csv
+data/**/*.zip
+data/**/negative_sales_outputs/
+
+# Local editor files
+.vscode/
+.idea/
