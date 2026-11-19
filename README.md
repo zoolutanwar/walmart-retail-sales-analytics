@@ -9,8 +9,7 @@ An end-to-end retail analytics portfolio project combining Python analysis, mach
 | Deliverable | Link |
 |---|---|
 | Interactive dashboard source | [Download the editable Power BI report (.pbix)](powerbi/Walmart_Retail_Analytics.pbix) |
-| Complete analysis | [Open the beginner-friendly executed notebook](notebooks/walmart_retail_analytics.ipynb) |
-| Browser-friendly analysis | [View the standalone HTML report](reports/walmart_retail_analytics.html) |
+| Complete analysis | [Open my original Jupyter notebook](notebooks/python.ipynb) |
 | Dashboard dataset | [Download the prepared Excel workbook](outputs/walmart_powerbi_dashboard.xlsx) |
 
 > GitHub displays the dashboard preview above. To explore filters and visuals interactively, download the `.pbix` file and open it in Power BI Desktop.
@@ -45,8 +44,6 @@ An end-to-end retail analytics portfolio project combining Python analysis, mach
 
 Linear Regression was selected because it produced the lowest test error and remained easy to explain. The 12-week forecast captures expected seasonal peaks, including approximately **64.1M for Thanksgiving week** and **72.8M before Christmas**.
 
-![Forecast model comparison](outputs/model_comparison.png)
-
 ## Recommendations
 
 1. Audit Store 35's returns, refunds, inventory adjustments, and data-entry processes for Departments 49 and 80.
@@ -66,10 +63,9 @@ Linear Regression was selected because it produced the lowest test error and rem
 
 ```text
 ├── assets/       # Dashboard preview
-├── notebooks/    # Clean, executed analysis notebook
-├── outputs/      # Forecasts, charts, summary tables, and dashboard workbook
+├── notebooks/    # Original analysis notebook
+├── outputs/      # Essential forecast and dashboard data files
 ├── powerbi/      # Editable Power BI report (.pbix)
-├── reports/      # Browser-friendly HTML analysis
 ├── README.md
 └── requirements.txt
 ```
@@ -80,7 +76,7 @@ Linear Regression was selected because it produced the lowest test error and rem
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-jupyter notebook notebooks/walmart_retail_analytics.ipynb
+jupyter notebook notebooks/python.ipynb
 ```
 
 Run the notebook from top to bottom to regenerate the charts, summary tables, forecast, and Power BI workbook in `outputs/`.
