@@ -9,7 +9,7 @@ An end-to-end retail analytics portfolio project combining Python analysis, mach
 | Deliverable | Link |
 |---|---|
 | Interactive dashboard source | [Download the editable Power BI report (.pbix)](powerbi/Walmart_Retail_Analytics.pbix) |
-| Complete analysis | [Open the executed Jupyter notebook](notebooks/walmart_retail_analytics.ipynb) |
+| Complete analysis | [Open the beginner-friendly executed notebook](notebooks/walmart_retail_analytics.ipynb) |
 | Browser-friendly analysis | [View the standalone HTML report](reports/walmart_retail_analytics.html) |
 | Dashboard dataset | [Download the prepared Excel workbook](outputs/walmart_powerbi_dashboard.xlsx) |
 

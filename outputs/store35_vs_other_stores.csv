@@ -1,7 +1,7 @@
-Dept,store_group,total_observations,negative_observations,negative_rate,negative_impact
-47,Other stores,610,234,38.36,-47994.91
-47,Store 35,36,20,55.56,-5193.15
-49,Other stores,4425,47,1.06,-895.33
-49,Store 35,57,20,35.09,-560.65
-80,Other stores,5757,43,0.75,-2359.84
-80,Store 35,134,25,18.66,-1871.64
+Dept,store_group,total_observations,negative_observations,negative_impact,negative_rate
+47,Other stores,610,234,-47994.91,38.36
+47,Store 35,36,20,-5193.15,55.56
+49,Other stores,4425,47,-895.33,1.06
+49,Store 35,57,20,-560.65,35.09
+80,Other stores,5757,43,-2359.84,0.75
+80,Store 35,134,25,-1871.64,18.66

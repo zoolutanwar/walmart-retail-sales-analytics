@@ -1,4 +1,4 @@
-Dept,total_observations,negative_observations,negative_rate,negative_impact
-47,646,254,39.32,-53188.06
-49,4482,67,1.49,-1455.98
-80,5891,68,1.15,-4231.48
+Dept,total_observations,negative_observations,negative_impact,negative_rate
+47,646,254,-53188.06,39.32
+49,4482,67,-1455.98,1.49
+80,5891,68,-4231.48,1.15
