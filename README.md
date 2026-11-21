@@ -11,6 +11,7 @@ An end-to-end retail analytics portfolio project combining Python analysis, mach
 | Interactive dashboard source | [Download the editable Power BI report (.pbix)](powerbi/Walmart_Retail_Analytics.pbix) |
 | Complete analysis | [Open my original Jupyter notebook](notebooks/python.ipynb) |
 | Dashboard dataset | [Download the prepared Excel workbook](outputs/walmart_powerbi_dashboard.xlsx) |
+| Raw source dataset | [Browse the Walmart CSV files](data/walmart-recruiting-store-sales-forecasting/) |
 
 > GitHub displays the dashboard preview above. To explore filters and visuals interactively, download the `.pbix` file and open it in Power BI Desktop.
 
@@ -63,6 +64,7 @@ Linear Regression was selected because it produced the lowest test error and rem
 
 ```text
 ├── assets/       # Dashboard preview
+├── data/         # Raw Walmart source CSV files
 ├── notebooks/    # Original analysis notebook
 ├── outputs/      # Essential forecast and dashboard data files
 ├── powerbi/      # Editable Power BI report (.pbix)
@@ -89,4 +91,4 @@ Run the notebook from top to bottom to regenerate the charts, summary tables, fo
 
 ## Data source
 
-Walmart Recruiting — Store Sales Forecasting dataset, originally published on Kaggle. Raw data is excluded from this repository and must be downloaded separately.
+Walmart Recruiting — Store Sales Forecasting dataset, originally published on Kaggle. The raw CSV files used by this project are available in [`data/walmart-recruiting-store-sales-forecasting/`](data/walmart-recruiting-store-sales-forecasting/).
